@@ -15,10 +15,12 @@
 * Better Dealing With Nested Tags
 * Slider To Select How High/Low Level Text Should Be Replaced, i.e. H1 vs A Span
 
-  - - - -
+ 
+ 
+- - - -
 
 #Sample Picture#
 
-  - - - -
+ - - - -
 
 ![picture alt](http://i.imgur.com/xAKK2TV.jpg)
