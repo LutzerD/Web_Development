@@ -17,5 +17,8 @@
 
   - - - -
 
-##Sample Picture##
+#Sample Picture#
+
+  - - - -
+
 ![picture alt](http://i.imgur.com/xAKK2TV.jpg)
