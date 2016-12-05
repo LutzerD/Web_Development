@@ -1,6 +1,8 @@
 ![picture alt](https://68.media.tumblr.com/a6443b1f4bc102164f228b610c6c6ce1/tumblr_nxo9bwSyy31sflxizo1_500.png)
-#This Extension is Available for Google Chrome only#
+# Have you ever wondered what the internet was like if all text was replaced by parts of the bee movie script?? Here's your chance to find out #
 
+##
+##This Extension is Available for Google Chrome only##
   - - - -
 
 ## Installation notes##
