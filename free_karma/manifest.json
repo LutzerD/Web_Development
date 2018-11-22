@@ -1,0 +1,19 @@
+{
+  "name": "Dis bitch empty.",
+  "description": "Cool flex but ok",
+  "version": "2.0",
+  "permissions":[ "tabs", "activeTab",
+    "https://*/*",
+    "http://*/*" ],
+  "content_scripts": [{
+    "run_at": "document_start",
+    "matches": ["<all_urls>"],
+    "js": ["main.js"]
+  }],
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": true
+  },
+  "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'",
+  "manifest_version": 2
+}
