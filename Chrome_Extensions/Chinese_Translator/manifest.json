@@ -1,0 +1,41 @@
+{
+  "name": "Page Redder",
+  "description": "Make the current page red",
+  "version": "2.0",
+  "permissions":[ "tabs", "activeTab" ],
+  "content_scripts": [{
+    "matches": ["<all_urls>"],
+    "js": ["main.js"]
+  }],
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "browser_action": {
+    "default_title": "Make this page red"
+  },
+  "commands": {
+    "toggle-feature": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+Y",
+        "mac": "MacCtrl+Shift+Y"
+       },
+      "description": "Send a 'toggle-feature' event to the extension"
+    },    
+    "skeet": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+E",
+        "mac": "MacCtrl+Shift+E"
+       },
+      "description": "Send a 'toggle-feature' event to the extension"
+    },
+    "_execute_browser_action": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+F",
+        "mac": "MacCtrl+Shift+F"
+      }
+    }
+  },    
+  "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'",
+  "manifest_version": 2
+}

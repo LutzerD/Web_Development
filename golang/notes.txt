@@ -1,0 +1,168 @@
+////////////////
+
+import "butts"
+import "nutts"
+
+->
+
+"factored statement"
+
+import (
+  "butts"
+  "nutts"
+)
+no change other than total characters
+////////////////
+
+
+
+function parameter shorthand
+
+(int a, int b, int c)
+->
+a,b,int c
+////////////////
+
+
+lines don't end in ';'
+
+
+////////////////
+
+multiple var handling : python(y) comma delimited
+
+package main
+
+import "fmt"
+
+func stairs(anInt int)(int, int, int){
+  return anInt+1,anInt+2,anInt+3
+}
+
+func main(){
+  x,y,z := stairs(4444)
+  fmt.Println(x,y,z)
+}////////////////
+
+func main() similiar to cpp
+
+///////////////
+
+setting a var is :=
+
+/////////
+
+return types are declared similiar to input types
+func f(int a)(int, int, int){
+
+/////////
+
+datatype is after var name
+
+/////////
+
+:= is shorthand declaration, it implicitly defines a datatype based on tpe it's being set to
+
+////////??????
+
+you can declare the return variables
+func returnthings(a int,b string)( x, y int){
+  y = len(b)
+  x = a
+  return
+}
+
+
+func main(){
+  x,y := returnthings(5,"wasd")
+  fmt.Println(x,y)
+}
+
+////////////
+
+kind of annoyingly, fmt.Println puts a space between x and y
+
+////////////
+
+variable declarations
+
+var name, type
+
+i.e. 
+var butts, nutts bool //butts and nuts are bools
+
+///
+
+commenting is //
+or /*
+
+
+*/
+general commenting
+
+///////////////
+
+Global initailizations
+
+//illegal
+//var g_a, g_b := "butts", "nutts"
+
+//legal
+var g_a, g_b string = "butts", "nutts"
+
+func main(){
+  fmt.Println(g_a,g_b)
+}
+
+////////////////////
+
+outside functions := is not allowed
+
+////////////////////
+
+runes are the modern chars
+i.e. they hold numbers as characters , 97 = 'a' , etc. although its an int32 and can hold alot more characters
+
+//////////
+
+default is zero val 
+
+////
+
+
+use %T to print ttype
+%v for generic number (int)
+
+fmt.Printf("%v %T %v %T",b,b,t,t)
+
+///
+
+errors on unused variables
+
+
+///
+
+consts are just 
+const butts = "noice"
+
+no need to declare type
+no using :=
+
+////
+
+can use the shorthand "factored statement" for a lot of things apparently
+including consts
+
+const (
+butts = 4
+nutts = 3
+)
+
+////////
+
+defer - doesnt execute until the surrounding func does
+:
+
+
+
+
